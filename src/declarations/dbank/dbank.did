@@ -1,0 +1,5 @@
+service : {
+  addUp: (float64) -> () oneway;
+  checkBalance: () -> (float64) query;
+  widthraw: (float64) -> () oneway;
+}
